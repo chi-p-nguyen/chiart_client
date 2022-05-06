@@ -11,10 +11,7 @@ const props = defineProps({
 <template>
     <div>
         <div class="block">
-            <Image :src=imgSrc alt="Image" width="250" />
-        </div>
-        <div class="block">
-            <!-- <a href="https://www.google.com/"><Button label="Link" class="p-button-link" /></a> -->
+            <Image :src=imgSrc alt="Image" height="360" imageClass="shadow-8" />
         </div>
     </div>
 </template>

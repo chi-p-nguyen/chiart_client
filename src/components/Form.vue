@@ -20,7 +20,7 @@ function myUploader(event) {
   image.value = event.files[0];
 }
 
-const url = "http://localhost:5000";
+const url = process.env.NODE_ENV === "production" ? "" : "http://localhost:5000";
 
 function process() {
   const formData = new FormData();

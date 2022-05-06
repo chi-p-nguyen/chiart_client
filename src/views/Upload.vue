@@ -4,7 +4,7 @@ import Form from "../components/Form.vue"
 
 <template>
   <div class="about">
-    <h1>Upload new artwork</h1>
+    <h1>For Chi only: Upload new artwork</h1>
     
     <Form />
 
