@@ -12,6 +12,12 @@ const routes = [{
         name: "Upload",
         component: () =>
             import ("../views/Upload.vue") // lazy loading -> only load when visible
+    },
+    {
+        path: "/about",
+        name: "About",
+        component: () =>
+            import ("../views/About.vue") // lazy loading -> only load when visible
     }
 ];
 

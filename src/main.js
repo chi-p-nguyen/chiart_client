@@ -3,7 +3,7 @@ import App from './App.vue';
 import router from "./router/index";
 import PrimeVue from 'primevue/config';
 import 'primevue/resources/primevue.min.css'
-import 'primevue/resources/themes/bootstrap4-light-blue/theme.css'
+import 'primevue/resources/themes/fluent-light/theme.css'
 import 'primeicons/primeicons.css'
 import '/node_modules/primeflex/primeflex.css'
 

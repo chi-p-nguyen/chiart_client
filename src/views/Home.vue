@@ -5,7 +5,7 @@ import Images from "../components/Images.vue";
 
 <template>
   <div class="home">
-    <h1>Chi's latest artwork</h1>
+    <p class="text-6xl font-semibold w-10 p-component">Chi's latest work</p>
     <Images />
   </div>
 </template>

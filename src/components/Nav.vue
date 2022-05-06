@@ -2,7 +2,8 @@
 import TabMenu from 'primevue/tabmenu';
 
 const routes = [
-  {label: 'Home', to: '/'}
+  {label: 'Home', to: '/'},
+  {label: 'About', to: '/about'}
 ]
 
 </script>
